@@ -1,7 +1,6 @@
-
-
-a=10
+from Lib.math import mul
 b=10
-print(a,'+',b,'=',a+b)
-print(type(a))
+a=10
+(a,'+',b,'=',a+b)
+print(mul(a,b))
 type(a)
